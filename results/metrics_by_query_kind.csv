@@ -1,0 +1,13 @@
+kind,method,precision_at_5,mrr,ndcg_at_5
+edge,hybrid,0.857,1.0,1.0
+edge,keyword,0.514,1.0,0.739
+edge,semantic,0.857,1.0,1.0
+hard,hybrid,0.44,0.467,0.445
+hard,keyword,0.16,0.6,0.247
+hard,semantic,0.28,0.467,0.317
+incomplete,hybrid,0.6,1.0,1.0
+incomplete,keyword,0.1,0.5,0.5
+incomplete,semantic,0.6,1.0,1.0
+normal,hybrid,0.9,1.0,1.0
+normal,keyword,0.55,1.0,0.729
+normal,semantic,0.9,1.0,1.0

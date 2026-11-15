@@ -1,0 +1,5 @@
+Project Title: University Research Resource Discovery and Evidence Mapping Assistant
+Problem Statement ID: LPU-RESEARCH-02
+Registration Numbers of All Group Members: 12510043 (Satyam Sharma - Individual Project)
+GitHub Repository Link: https://github.com/connectsatyamsharma/research-resource-assistant
+Live Deployed Project Link: https://research-resource-assistant.streamlit.app

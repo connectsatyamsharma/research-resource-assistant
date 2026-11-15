@@ -1,0 +1,4 @@
+method,precision_at_5,recall_at_5,mrr,ndcg_at_5,actionable_p5,unavailable_in_top3,latency_ms,abstention_accuracy
+keyword,0.431,0.537,0.885,0.622,0.423,0.038,1.985,1.0
+semantic,0.746,0.872,0.897,0.869,0.731,0.077,8.564,1.0
+hybrid,0.777,0.903,0.897,0.893,0.762,0.038,8.659,1.0

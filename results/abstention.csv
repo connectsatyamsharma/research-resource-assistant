@@ -1,0 +1,10 @@
+qid,query,method,abstained,status
+I03,data,keyword,True,no_match
+I03,data,semantic,True,too_vague
+I03,data,hybrid,True,too_vague
+I04,blockchain voting system,keyword,True,no_match
+I04,blockchain voting system,semantic,True,no_match
+I04,blockchain voting system,hybrid,True,no_match
+I05,,keyword,True,empty_query
+I05,,semantic,True,empty_query
+I05,,hybrid,True,empty_query

@@ -1,0 +1,79 @@
+qid,kind,query,method,precision_at_5,recall_at_5,mrr,ndcg_at_5,actionable_p5,unavailable_in_top3,latency_ms,n_relevant
+N01,normal,labs working on tumor detection in MRI scans,keyword,0.4,0.4,1.0,0.5531464700081437,0.4,0,7.132342000005565,6
+N01,normal,labs working on tumor detection in MRI scans,semantic,1.0,1.0,1.0,1.0,1.0,0,12.456262000000606,6
+N01,normal,labs working on tumor detection in MRI scans,hybrid,1.0,1.0,1.0,1.0,1.0,0,10.382053999990148,6
+N02,normal,datasets for training chatbots in Hindi,keyword,0.8,1.0,1.0,1.0,0.8,0,2.877856999987216,4
+N02,normal,datasets for training chatbots in Hindi,semantic,0.8,1.0,1.0,1.0,0.8,0,8.757258000002821,4
+N02,normal,datasets for training chatbots in Hindi,hybrid,0.8,1.0,1.0,1.0,0.8,0,8.668563000014728,4
+N03,normal,where can I test autonomous drone navigation,keyword,0.4,0.6666666666666666,1.0,0.7039180890341347,0.4,0,1.0180849999983366,3
+N03,normal,where can I test autonomous drone navigation,semantic,0.6,1.0,1.0,1.0,0.6,0,6.393400000007432,3
+N03,normal,where can I test autonomous drone navigation,hybrid,0.6,1.0,1.0,1.0,0.6,0,7.21346599999606,3
+N04,normal,photovoltaic panel performance data,keyword,0.6,0.6,1.0,0.7227265726449519,0.6,0,1.0142769999959,5
+N04,normal,photovoltaic panel performance data,semantic,1.0,1.0,1.0,1.0,1.0,0,6.7110020000029635,5
+N04,normal,photovoltaic panel performance data,hybrid,1.0,1.0,1.0,1.0,1.0,0,6.867733999996517,5
+N05,normal,forecasting monsoon rainfall,keyword,0.6,0.6,1.0,0.7227265726449519,0.6,0,1.0862020000104167,5
+N05,normal,forecasting monsoon rainfall,semantic,1.0,1.0,1.0,1.0,1.0,0,6.621905000002926,5
+N05,normal,forecasting monsoon rainfall,hybrid,1.0,1.0,1.0,1.0,1.0,0,6.71855199999527,5
+N06,normal,DNA sequencing facility for gene expression study,keyword,0.6,0.75,1.0,0.8318724637288826,0.4,1,2.02664399998298,4
+N06,normal,DNA sequencing facility for gene expression study,semantic,0.8,1.0,1.0,1.0,0.6,1,8.464416999999003,4
+N06,normal,DNA sequencing facility for gene expression study,hybrid,0.8,1.0,1.0,1.0,0.6,1,8.112162000003309,4
+N07,normal,detect malware and network attacks,keyword,0.6,0.75,1.0,0.8318724637288826,0.6,0,2.333625000005668,4
+N07,normal,detect malware and network attacks,semantic,0.8,1.0,1.0,1.0,0.8,0,7.808305999986942,4
+N07,normal,detect malware and network attacks,hybrid,0.8,1.0,1.0,1.0,0.8,0,8.013218999991523,4
+N08,normal,nanomaterial coatings against corrosion,keyword,0.6,0.6,1.0,0.7227265726449519,0.6,0,2.23463399998991,6
+N08,normal,nanomaterial coatings against corrosion,semantic,1.0,1.0,1.0,1.0,1.0,0,8.280880999990359,6
+N08,normal,nanomaterial coatings against corrosion,hybrid,1.0,1.0,1.0,1.0,1.0,0,8.39705000001345,6
+N09,normal,predict crop disease from leaf photos,keyword,0.6,0.6,1.0,0.7227265726449519,0.6,0,2.25368100001333,6
+N09,normal,predict crop disease from leaf photos,semantic,1.0,1.0,1.0,1.0,1.0,0,8.433304000021735,6
+N09,normal,predict crop disease from leaf photos,hybrid,1.0,1.0,1.0,1.0,1.0,0,8.91142399999012,6
+N10,normal,traffic congestion prediction using sensors,keyword,0.4,0.4,1.0,0.5531464700081437,0.4,0,1.069565999983979,5
+N10,normal,traffic congestion prediction using sensors,semantic,1.0,1.0,1.0,1.0,1.0,0,6.255181000000221,5
+N10,normal,traffic congestion prediction using sensors,hybrid,1.0,1.0,1.0,1.0,1.0,0,6.339934000010317,5
+N11,normal,language models for sentiment analysis on tweets,keyword,0.6,0.75,1.0,0.8318724637288826,0.6,0,1.0182929999871249,4
+N11,normal,language models for sentiment analysis on tweets,semantic,0.8,1.0,1.0,1.0,0.8,0,6.275372999994033,4
+N11,normal,language models for sentiment analysis on tweets,hybrid,0.8,1.0,1.0,1.0,0.8,0,6.889787000005754,4
+N12,normal,battery degradation and energy storage,keyword,0.4,0.4,1.0,0.5531464700081437,0.4,0,1.1529120000091098,8
+N12,normal,battery degradation and energy storage,semantic,1.0,1.0,1.0,1.0,1.0,0,7.843452999992451,8
+N12,normal,battery degradation and energy storage,hybrid,1.0,1.0,1.0,1.0,1.0,0,7.913255999994817,8
+E01,edge,AI for crop yield using satellite and weather data,keyword,0.8,0.8,1.0,0.8539316501572937,0.8,0,1.0976410000012038,7
+E01,edge,AI for crop yield using satellite and weather data,semantic,1.0,1.0,1.0,1.0,1.0,0,7.753162000000202,7
+E01,edge,AI for crop yield using satellite and weather data,hybrid,1.0,1.0,1.0,1.0,1.0,0,8.243219999997109,7
+E02,edge,secure IoT sensor networks in smart cities,keyword,0.8,0.8,1.0,0.8539316501572937,0.8,0,5.6183639999858315,8
+E02,edge,secure IoT sensor networks in smart cities,semantic,1.0,1.0,1.0,1.0,1.0,0,11.697454000000107,8
+E02,edge,secure IoT sensor networks in smart cities,hybrid,1.0,1.0,1.0,1.0,1.0,0,10.386407999988023,8
+E03,edge,computing resources for training large deep learning models,keyword,0.2,1.0,1.0,1.0,0.2,0,4.1415180000115015,1
+E03,edge,computing resources for training large deep learning models,semantic,0.2,1.0,1.0,1.0,0.2,0,10.521957000008797,1
+E03,edge,computing resources for training large deep learning models,hybrid,0.2,1.0,1.0,1.0,0.2,0,10.66144099999633,1
+E04,edge,robots for warehouse logistics and routing,keyword,0.4,0.4,1.0,0.5531464700081437,0.4,0,1.0135670000011032,6
+E04,edge,robots for warehouse logistics and routing,semantic,1.0,1.0,1.0,1.0,1.0,0,6.25949199999809,6
+E04,edge,robots for warehouse logistics and routing,hybrid,1.0,1.0,1.0,1.0,1.0,0,6.260749999995596,6
+E05,edge,renewable energy materials research,keyword,0.6,0.6,1.0,0.7227265726449519,0.6,0,0.9909410000261687,8
+E05,edge,renewable energy materials research,semantic,1.0,1.0,1.0,1.0,1.0,0,6.765543000000207,8
+E05,edge,renewable energy materials research,hybrid,1.0,1.0,1.0,1.0,1.0,0,6.62164999999959,8
+E06,edge,protein folding on GPUs,keyword,0.4,0.5,1.0,0.6366824387328317,0.4,0,0.9888200000034431,4
+E06,edge,protein folding on GPUs,semantic,0.8,1.0,1.0,1.0,0.6,1,6.2678409999819,4
+E06,edge,protein folding on GPUs,hybrid,0.8,1.0,1.0,1.0,0.6,0,6.534678999997823,4
+E07,edge,x ray lung scan screening,keyword,0.4,0.4,1.0,0.5531464700081437,0.4,0,0.9490719999973862,6
+E07,edge,x ray lung scan screening,semantic,1.0,1.0,1.0,1.0,1.0,0,6.686404999982187,6
+E07,edge,x ray lung scan screening,hybrid,1.0,1.0,1.0,1.0,1.0,0,6.979045000008455,6
+H01,hard,tomato blight detection,keyword,0.2,0.2,0.5,0.21398626473452756,0.2,0,2.4636320000013257,6
+H01,hard,tomato blight detection,semantic,0.0,0.0,0.0,0.0,0.0,0,9.824685000012323,6
+H01,hard,tomato blight detection,hybrid,0.0,0.0,0.0,0.0,0.0,0,10.06845400002021,6
+H02,hard,self-driving vehicle perception,keyword,0.2,0.3333333333333333,1.0,0.46927872602275644,0.2,0,2.1531170000059774,3
+H02,hard,self-driving vehicle perception,semantic,0.4,0.6666666666666666,0.3333333333333333,0.41618115554873086,0.4,0,11.723735000003899,3
+H02,hard,self-driving vehicle perception,hybrid,0.4,0.6666666666666666,0.3333333333333333,0.4367467095119258,0.4,0,11.57009099998163,3
+H03,hard,predict electricity demand of the campus,keyword,0.2,0.2,0.5,0.21398626473452756,0.2,0,3.1285389999879953,5
+H03,hard,predict electricity demand of the campus,semantic,0.4,0.4,1.0,0.4703652827859579,0.4,0,11.44327899999098,5
+H03,hard,predict electricity demand of the campus,hybrid,0.8,0.8,1.0,0.7860137352654724,0.8,0,12.009332999980415,5
+H04,hard,recognise hate speech on social media,keyword,0.0,0.0,0.0,0.0,0.0,0,0.9505989999922804,4
+H04,hard,recognise hate speech on social media,semantic,0.0,0.0,0.0,0.0,0.0,0,14.350820000004205,4
+H04,hard,recognise hate speech on social media,hybrid,0.0,0.0,0.0,0.0,0.0,0,14.644759000020713,4
+H05,hard,ageing of lithium cells,keyword,0.2,0.2,1.0,0.3391602052736161,0.2,0,0.9577809999825604,8
+H05,hard,ageing of lithium cells,semantic,0.6,0.6,1.0,0.6992148198508501,0.6,0,7.142340000001468,8
+H05,hard,ageing of lithium cells,hybrid,1.0,1.0,1.0,1.0,1.0,0,6.454726000015398,8
+I01,incomplete,medcal imagng segmentaton,keyword,0.0,0.0,0.0,0.0,0.0,0,0.9832610000160003,6
+I01,incomplete,medcal imagng segmentaton,semantic,1.0,1.0,1.0,1.0,1.0,0,11.401023000018995,6
+I01,incomplete,medcal imagng segmentaton,hybrid,1.0,1.0,1.0,1.0,1.0,0,12.408729000014773,6
+I02,incomplete,quantum photonics,keyword,0.2,1.0,1.0,1.0,0.2,0,0.9610850000001392,1
+I02,incomplete,quantum photonics,semantic,0.2,1.0,1.0,1.0,0.2,0,6.52657599999884,1
+I02,incomplete,quantum photonics,hybrid,0.2,1.0,1.0,1.0,0.2,0,7.8612069999906,1

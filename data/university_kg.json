@@ -1,0 +1,774 @@
+{
+  "themes": [
+    {
+      "id": "T01",
+      "type": "Theme",
+      "name": "Medical Imaging",
+      "aliases": "radiology MRI CT scan X-ray tumor detection image segmentation diagnostic imaging lung scan"
+    },
+    {
+      "id": "T02",
+      "type": "Theme",
+      "name": "Natural Language Processing",
+      "aliases": "text mining language models sentiment analysis chatbots machine translation transformers tweets Hindi"
+    },
+    {
+      "id": "T03",
+      "type": "Theme",
+      "name": "Robotics",
+      "aliases": "autonomous robots drones manipulators motion planning SLAM navigation control warehouse automation"
+    },
+    {
+      "id": "T04",
+      "type": "Theme",
+      "name": "Renewable Energy",
+      "aliases": "solar photovoltaic panels wind power battery storage smart grid energy"
+    },
+    {
+      "id": "T05",
+      "type": "Theme",
+      "name": "Climate Modelling",
+      "aliases": "weather forecasting rainfall monsoon global warming carbon emissions remote sensing satellite"
+    },
+    {
+      "id": "T06",
+      "type": "Theme",
+      "name": "Genomics",
+      "aliases": "DNA sequencing bioinformatics gene expression protein folding CRISPR biomarkers cancer genomics"
+    },
+    {
+      "id": "T07",
+      "type": "Theme",
+      "name": "Cybersecurity",
+      "aliases": "intrusion detection malware network attacks security cryptography privacy"
+    },
+    {
+      "id": "T08",
+      "type": "Theme",
+      "name": "Materials Science",
+      "aliases": "nanomaterials polymers alloys thin films coatings corrosion battery materials"
+    },
+    {
+      "id": "T09",
+      "type": "Theme",
+      "name": "Smart Agriculture",
+      "aliases": "crop disease precision farming soil sensors irrigation yield prediction leaf photos"
+    },
+    {
+      "id": "T10",
+      "type": "Theme",
+      "name": "Urban Mobility",
+      "aliases": "traffic congestion prediction IoT sensors smart city public transport vehicle routing logistics"
+    }
+  ],
+  "labs": [
+    {
+      "id": "L01",
+      "type": "Lab",
+      "name": "Medical Imaging and AI Lab",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T01"
+      ],
+      "description": "Deep learning for radiology images: tumor segmentation in MRI and CT, chest X-ray screening, and explainable diagnostic models."
+    },
+    {
+      "id": "L02",
+      "type": "Lab",
+      "name": "Language Intelligence Lab",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T02"
+      ],
+      "description": "Builds language models and chatbots for Indian languages, sentiment analysis, code-mixed text and machine translation."
+    },
+    {
+      "id": "L03",
+      "type": "Lab",
+      "name": "Autonomous Systems Lab",
+      "dept": "Mechanical",
+      "availability": "limited",
+      "themes": [
+        "T03",
+        "T10"
+      ],
+      "description": "Mobile robots, drone navigation, SLAM and motion planning, with applications in warehouse logistics and vehicle routing."
+    },
+    {
+      "id": "L04",
+      "type": "Lab",
+      "name": "Solar and Storage Research Lab",
+      "dept": "Electrical",
+      "availability": "available",
+      "themes": [
+        "T04",
+        "T08"
+      ],
+      "description": "Photovoltaic performance monitoring, battery energy storage, degradation modelling and smart grid integration."
+    },
+    {
+      "id": "L05",
+      "type": "Lab",
+      "name": "Climate Data Lab",
+      "dept": "Civil",
+      "availability": "available",
+      "themes": [
+        "T05",
+        "T09"
+      ],
+      "description": "Rainfall and monsoon forecasting, satellite remote sensing and climate impact analysis for agriculture."
+    },
+    {
+      "id": "L06",
+      "type": "Lab",
+      "name": "Computational Genomics Lab",
+      "dept": "Biotechnology",
+      "availability": "limited",
+      "themes": [
+        "T06",
+        "T01"
+      ],
+      "description": "Gene expression analysis, DNA sequencing pipelines, cancer biomarker discovery and protein structure prediction."
+    },
+    {
+      "id": "L07",
+      "type": "Lab",
+      "name": "Secure Systems Lab",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T07"
+      ],
+      "description": "Network intrusion detection, malware analysis, applied cryptography and privacy-preserving machine learning."
+    },
+    {
+      "id": "L08",
+      "type": "Lab",
+      "name": "Advanced Materials Lab",
+      "dept": "Chemistry",
+      "availability": "available",
+      "themes": [
+        "T08",
+        "T04"
+      ],
+      "description": "Nanomaterials, anti-corrosion coatings, polymers and electrode materials for batteries."
+    },
+    {
+      "id": "L09",
+      "type": "Lab",
+      "name": "Precision Agriculture Lab",
+      "dept": "Agriculture",
+      "availability": "available",
+      "themes": [
+        "T09",
+        "T05"
+      ],
+      "description": "Crop disease detection from leaf images, soil sensors, irrigation scheduling and yield prediction."
+    },
+    {
+      "id": "L10",
+      "type": "Lab",
+      "name": "Smart City and Mobility Lab",
+      "dept": "Civil",
+      "availability": "available",
+      "themes": [
+        "T10"
+      ],
+      "description": "Traffic congestion prediction, IoT sensor deployments, public transport analytics and urban planning."
+    },
+    {
+      "id": "L11",
+      "type": "Lab",
+      "name": "Bio-Signal Processing Lab",
+      "dept": "Electronics",
+      "availability": "limited",
+      "themes": [
+        "T01"
+      ],
+      "description": "ECG and EEG signal analysis and wearable sensing, with growing work on medical image reconstruction."
+    },
+    {
+      "id": "L12",
+      "type": "Lab",
+      "name": "Quantum Photonics Lab",
+      "dept": "Physics",
+      "availability": null,
+      "themes": [
+        "T08"
+      ],
+      "description": ""
+    }
+  ],
+  "datasets": [
+    {
+      "id": "D01",
+      "type": "Dataset",
+      "name": "Chest X-ray Screening Subset",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T01"
+      ],
+      "owner_lab": "L01",
+      "description": "12,000 de-identified chest X-ray images with radiologist labels for pneumonia and nodule screening."
+    },
+    {
+      "id": "D02",
+      "type": "Dataset",
+      "name": "Brain MRI Tumor Segmentation Set",
+      "dept": "CSE",
+      "availability": "limited",
+      "themes": [
+        "T01"
+      ],
+      "owner_lab": "L01",
+      "description": "480 annotated brain MRI volumes with tumor masks; access limited to approved student projects."
+    },
+    {
+      "id": "D03",
+      "type": "Dataset",
+      "name": "Indian-Language News Corpus",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T02"
+      ],
+      "owner_lab": "L02",
+      "description": "1.2 million news articles in Hindi, Punjabi and English for language-model training and text classification."
+    },
+    {
+      "id": "D04",
+      "type": "Dataset",
+      "name": "Code-Mixed Hindi-English Tweets",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T02"
+      ],
+      "owner_lab": "L02",
+      "description": "60,000 tweets labelled for sentiment and offensive language, useful for chatbots and sentiment analysis."
+    },
+    {
+      "id": "D05",
+      "type": "Dataset",
+      "name": "Warehouse Robot Trajectory Logs",
+      "dept": "Mechanical",
+      "availability": "available",
+      "themes": [
+        "T03",
+        "T10"
+      ],
+      "owner_lab": "L03",
+      "description": "Sensor and trajectory logs from 8 mobile robots operating in a warehouse mock-up, including route plans."
+    },
+    {
+      "id": "D06",
+      "type": "Dataset",
+      "name": "Rooftop Solar Generation Logs",
+      "dept": "Electrical",
+      "availability": "available",
+      "themes": [
+        "T04"
+      ],
+      "owner_lab": "L04",
+      "description": "Two years of minute-level generation data from 40 rooftop photovoltaic panels on campus."
+    },
+    {
+      "id": "D07",
+      "type": "Dataset",
+      "name": "Battery Cycling Degradation Data",
+      "dept": "Electrical",
+      "availability": "limited",
+      "themes": [
+        "T04",
+        "T08"
+      ],
+      "owner_lab": "L04",
+      "description": "Charge-discharge cycling records of lithium-ion cells for battery ageing and storage research."
+    },
+    {
+      "id": "D08",
+      "type": "Dataset",
+      "name": "District Rainfall 1990-2020",
+      "dept": "Civil",
+      "availability": "available",
+      "themes": [
+        "T05"
+      ],
+      "owner_lab": "L05",
+      "description": "Daily rainfall and temperature for Punjab districts, suitable for monsoon forecasting models."
+    },
+    {
+      "id": "D09",
+      "type": "Dataset",
+      "name": "Satellite Crop NDVI Time Series",
+      "dept": "Agriculture",
+      "availability": "available",
+      "themes": [
+        "T09",
+        "T05"
+      ],
+      "owner_lab": "L09",
+      "description": "Satellite vegetation-index time series for wheat and paddy fields, linked to weather and yield records."
+    },
+    {
+      "id": "D10",
+      "type": "Dataset",
+      "name": "Plant Leaf Disease Images",
+      "dept": "Agriculture",
+      "availability": "available",
+      "themes": [
+        "T09"
+      ],
+      "owner_lab": "L09",
+      "description": "25,000 labelled leaf photographs of healthy and diseased crops for crop disease classification."
+    },
+    {
+      "id": "D11",
+      "type": "Dataset",
+      "name": "Cancer Gene Expression Cohort",
+      "dept": "Biotechnology",
+      "availability": "unavailable",
+      "themes": [
+        "T06"
+      ],
+      "owner_lab": "L06",
+      "description": "RNA gene expression profiles from a patient cohort; restricted pending ethics approval."
+    },
+    {
+      "id": "D12",
+      "type": "Dataset",
+      "name": "Network Intrusion Flow Records",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T07"
+      ],
+      "owner_lab": "L07",
+      "description": "Labelled network traffic flows covering malware, port scans and denial-of-service attacks."
+    },
+    {
+      "id": "D13",
+      "type": "Dataset",
+      "name": "City Traffic Sensor Feed",
+      "dept": "Civil",
+      "availability": "available",
+      "themes": [
+        "T10"
+      ],
+      "owner_lab": "L10",
+      "description": "Six months of traffic counts and speeds from 120 road sensors for congestion prediction."
+    },
+    {
+      "id": "D14",
+      "type": "Dataset",
+      "name": "Alloy Corrosion Measurements",
+      "dept": "Chemistry",
+      "availability": "available",
+      "themes": [
+        "T08"
+      ],
+      "owner_lab": "L08",
+      "description": "Corrosion rate measurements for coated and uncoated alloys under salt-spray exposure."
+    }
+  ],
+  "facilities": [
+    {
+      "id": "F01",
+      "type": "Facility",
+      "name": "GPU Compute Cluster",
+      "dept": "CSE",
+      "availability": "limited",
+      "themes": [
+        "T01",
+        "T02",
+        "T06",
+        "T09"
+      ],
+      "labs": [
+        "L01",
+        "L02",
+        "L06",
+        "L09"
+      ],
+      "description": "Shared cluster of 16 GPUs for training large deep learning models; booked per week."
+    },
+    {
+      "id": "F02",
+      "type": "Facility",
+      "name": "Sequencing Core Facility",
+      "dept": "Biotechnology",
+      "availability": "available",
+      "themes": [
+        "T06"
+      ],
+      "labs": [
+        "L06"
+      ],
+      "description": "Next-generation DNA sequencing service with bioinformatics support."
+    },
+    {
+      "id": "F03",
+      "type": "Facility",
+      "name": "Robotics Arena",
+      "dept": "Mechanical",
+      "availability": "available",
+      "themes": [
+        "T03"
+      ],
+      "labs": [
+        "L03"
+      ],
+      "description": "Indoor arena with motion-capture for testing drones and mobile robot navigation."
+    },
+    {
+      "id": "F04",
+      "type": "Facility",
+      "name": "Solar Test Field",
+      "dept": "Electrical",
+      "availability": "available",
+      "themes": [
+        "T04"
+      ],
+      "labs": [
+        "L04"
+      ],
+      "description": "Outdoor photovoltaic test field with calibrated irradiance and panel performance instrumentation."
+    },
+    {
+      "id": "F05",
+      "type": "Facility",
+      "name": "Electron Microscopy Centre",
+      "dept": "Chemistry",
+      "availability": "limited",
+      "themes": [
+        "T08"
+      ],
+      "labs": [
+        "L08",
+        "L12"
+      ],
+      "description": "Scanning electron microscope for nanomaterial, coating and thin-film characterisation."
+    },
+    {
+      "id": "F06",
+      "type": "Facility",
+      "name": "Cyber Range",
+      "dept": "CSE",
+      "availability": "available",
+      "themes": [
+        "T07"
+      ],
+      "labs": [
+        "L07"
+      ],
+      "description": "Isolated virtual network for safe malware experiments and attack simulation."
+    },
+    {
+      "id": "F07",
+      "type": "Facility",
+      "name": "Weather Station Network",
+      "dept": "Civil",
+      "availability": "available",
+      "themes": [
+        "T05",
+        "T09"
+      ],
+      "labs": [
+        "L05",
+        "L09"
+      ],
+      "description": "12 automatic weather stations across the campus farm and district for rainfall and climate records."
+    },
+    {
+      "id": "F08",
+      "type": "Facility",
+      "name": "IoT Testbed",
+      "dept": "Electronics",
+      "availability": null,
+      "themes": [
+        "T10",
+        "T07"
+      ],
+      "labs": [
+        "L10",
+        "L07"
+      ],
+      "description": "Testbed of wireless sensor nodes for smart city and secure IoT experiments."
+    }
+  ],
+  "publications": [
+    {
+      "id": "P01",
+      "type": "Publication",
+      "name": "Explainable Tumor Segmentation in Brain MRI",
+      "year": 2024,
+      "lab": "L01",
+      "themes": [
+        "T01"
+      ],
+      "datasets": [
+        "D02"
+      ]
+    },
+    {
+      "id": "P02",
+      "type": "Publication",
+      "name": "Chest X-ray Screening with Lightweight CNNs",
+      "year": 2023,
+      "lab": "L01",
+      "themes": [
+        "T01"
+      ],
+      "datasets": [
+        "D01"
+      ]
+    },
+    {
+      "id": "P03",
+      "type": "Publication",
+      "name": "Sentiment Analysis on Code-Mixed Hindi-English Tweets",
+      "year": 2024,
+      "lab": "L02",
+      "themes": [
+        "T02"
+      ],
+      "datasets": [
+        "D04"
+      ]
+    },
+    {
+      "id": "P04",
+      "type": "Publication",
+      "name": "Training Small Language Models for Punjabi News",
+      "year": 2025,
+      "lab": "L02",
+      "themes": [
+        "T02"
+      ],
+      "datasets": [
+        "D03"
+      ]
+    },
+    {
+      "id": "P05",
+      "type": "Publication",
+      "name": "Reinforcement Learning for Warehouse Robot Routing",
+      "year": 2024,
+      "lab": "L03",
+      "themes": [
+        "T03",
+        "T10"
+      ],
+      "datasets": [
+        "D05"
+      ]
+    },
+    {
+      "id": "P06",
+      "type": "Publication",
+      "name": "Visual SLAM for Indoor Drone Navigation",
+      "year": 2023,
+      "lab": "L03",
+      "themes": [
+        "T03"
+      ],
+      "datasets": []
+    },
+    {
+      "id": "P07",
+      "type": "Publication",
+      "name": "Forecasting Rooftop Solar Output with LSTMs",
+      "year": 2024,
+      "lab": "L04",
+      "themes": [
+        "T04"
+      ],
+      "datasets": [
+        "D06"
+      ]
+    },
+    {
+      "id": "P08",
+      "type": "Publication",
+      "name": "State-of-Health Estimation for Lithium-Ion Batteries",
+      "year": 2025,
+      "lab": "L04",
+      "themes": [
+        "T04",
+        "T08"
+      ],
+      "datasets": [
+        "D07"
+      ]
+    },
+    {
+      "id": "P09",
+      "type": "Publication",
+      "name": "Monsoon Rainfall Prediction for Punjab Districts",
+      "year": 2023,
+      "lab": "L05",
+      "themes": [
+        "T05"
+      ],
+      "datasets": [
+        "D08"
+      ]
+    },
+    {
+      "id": "P10",
+      "type": "Publication",
+      "name": "Satellite-Based Wheat Yield Estimation",
+      "year": 2025,
+      "lab": "L05",
+      "themes": [
+        "T05",
+        "T09"
+      ],
+      "datasets": [
+        "D09"
+      ]
+    },
+    {
+      "id": "P11",
+      "type": "Publication",
+      "name": "Gene Expression Signatures for Cancer Subtyping",
+      "year": 2024,
+      "lab": "L06",
+      "themes": [
+        "T06"
+      ],
+      "datasets": [
+        "D11"
+      ]
+    },
+    {
+      "id": "P12",
+      "type": "Publication",
+      "name": "Protein Structure Prediction on GPU Clusters",
+      "year": 2025,
+      "lab": "L06",
+      "themes": [
+        "T06"
+      ],
+      "datasets": []
+    },
+    {
+      "id": "P13",
+      "type": "Publication",
+      "name": "Anomaly-Based Network Intrusion Detection",
+      "year": 2024,
+      "lab": "L07",
+      "themes": [
+        "T07"
+      ],
+      "datasets": [
+        "D12"
+      ]
+    },
+    {
+      "id": "P14",
+      "type": "Publication",
+      "name": "Privacy-Preserving Federated Learning for Malware Detection",
+      "year": 2025,
+      "lab": "L07",
+      "themes": [
+        "T07"
+      ],
+      "datasets": [
+        "D12"
+      ]
+    },
+    {
+      "id": "P15",
+      "type": "Publication",
+      "name": "Graphene-Enhanced Anti-Corrosion Coatings",
+      "year": 2023,
+      "lab": "L08",
+      "themes": [
+        "T08"
+      ],
+      "datasets": [
+        "D14"
+      ]
+    },
+    {
+      "id": "P16",
+      "type": "Publication",
+      "name": "Silicon Nanostructures for Battery Anodes",
+      "year": 2024,
+      "lab": "L08",
+      "themes": [
+        "T08",
+        "T04"
+      ],
+      "datasets": [
+        "D07"
+      ]
+    },
+    {
+      "id": "P17",
+      "type": "Publication",
+      "name": "Deep Learning for Crop Leaf Disease Classification",
+      "year": 2024,
+      "lab": "L09",
+      "themes": [
+        "T09"
+      ],
+      "datasets": [
+        "D10"
+      ]
+    },
+    {
+      "id": "P18",
+      "type": "Publication",
+      "name": "Soil Moisture Sensing for Irrigation Scheduling",
+      "year": 2023,
+      "lab": "L09",
+      "themes": [
+        "T09"
+      ],
+      "datasets": []
+    },
+    {
+      "id": "P19",
+      "type": "Publication",
+      "name": "Graph Neural Networks for Urban Traffic Prediction",
+      "year": 2025,
+      "lab": "L10",
+      "themes": [
+        "T10"
+      ],
+      "datasets": [
+        "D13"
+      ]
+    },
+    {
+      "id": "P20",
+      "type": "Publication",
+      "name": "Secure IoT Sensor Deployment for Smart Cities",
+      "year": 2024,
+      "lab": "L10",
+      "themes": [
+        "T10",
+        "T07"
+      ],
+      "datasets": [
+        "D13"
+      ]
+    },
+    {
+      "id": "P21",
+      "type": "Publication",
+      "name": "ECG-Assisted Medical Image Reconstruction",
+      "year": 2025,
+      "lab": "L11",
+      "themes": [
+        "T01"
+      ],
+      "datasets": []
+    }
+  ]
+}
